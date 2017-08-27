@@ -25,6 +25,7 @@ namespace Task_2
             for (int i = 1; i <= years; i++)
             {
                 deposit = money + (20 * money) / 100;
+                money += (20 * money) / 100;
             }
             Console.WriteLine(deposit);
             Console.ReadLine();
